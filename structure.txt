@@ -1,0 +1,38 @@
+mcp-framework/
+├── src/
+│   ├── types/
+│   │   └── mcp.ts                    # Core MCP type definitions
+│   ├── errors/
+│   │   └── mcp-errors.ts            # Error classes and codes
+│   ├── utils/
+│   │   └── logger.ts                # Logging utility
+│   ├── validation/
+│   │   └── schema-validator.ts      # JSON schema validation
+│   ├── transport/
+│   │   └── stdio-transport.ts       # Standard I/O transport layer
+│   ├── server/
+│   │   └── mcp-server.ts           # MCP server implementation
+│   ├── client/
+│   │   └── mcp-client.ts           # MCP client implementation
+│   ├── middleware/
+│   │   ├── rate-limiter.ts         # Rate limiting middleware
+│   │   └── auth.ts                 # Authentication middleware
+│   ├── examples/
+│   │   ├── file-server.ts          # File system server example
+│   │   ├── calculator-server.ts    # Calculator server example
+│   │   └── client-example.ts       # Client usage example
+│   ├── __tests__/
+│   │   ├── server.test.ts          # Server tests
+│   │   ├── client.test.ts          # Client tests
+│   │   └── utils.test.ts           # Utility tests
+│   └── index.ts                    # Main exports
+├── dist/                           # Compiled JavaScript output
+├── coverage/                       # Test coverage reports
+├── node_modules/                   # Dependencies
+├── package.json                    # Package configuration
+├── tsconfig.json                   # TypeScript configuration
+├── jest.config.json               # Jest test configuration
+├── .eslintrc.json                 # ESLint configuration
+├── .gitignore                     # Git ignore rules
+├── README.md                      # Documentation
+└── LICENSE                        # License file
